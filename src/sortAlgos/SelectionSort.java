@@ -29,14 +29,9 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] testArray = new int[7];
-        testArray[0] = 7;
-        testArray[1] = 10;
-        testArray[2] = 5;
-        testArray[3] = 3;
-        testArray[4] = 8;
-        testArray[5] = 4;
-        testArray[6] = 2;
+        int[] testArray = new int[2];
+        testArray[0] = 10;
+        testArray[1] = 7;
 
         SelectionSort s = new SelectionSort();
         s.sort(testArray);
