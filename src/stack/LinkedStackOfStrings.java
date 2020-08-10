@@ -1,5 +1,7 @@
 package stack;
 
+import java.util.NoSuchElementException;
+
 public class LinkedStackOfStrings {
 
     public Node first = null;
@@ -31,20 +33,17 @@ public class LinkedStackOfStrings {
         x.next = null; // reassign x & first
         return first;
     }
-    public static void main(String[] args) {
-        LinkedStackOfStrings s = new LinkedStackOfStrings();
-        s.push("a");
-        s.push("b");
-        s.push("c");
 
-
-        Node firstOld = s.first;
-
-        Node x = s.first;
-        x.next = null;
-
-        Node firstNew = s.first;
-        System.out.println(1);
-
+    public boolean isEmpty(){
+        return  first.item  == null;
     }
+
+    public String peek(){
+        if(isEmpty()){
+            throw new NoSuchElementException("The stack is empty!");
+        }
+        return first.item;
+    }
+
+
 }
