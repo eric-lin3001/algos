@@ -11,7 +11,6 @@ public class InsertionSort {
                 }
             }
         }
-
     }
 
     private boolean less(Comparable v,Comparable w) {
