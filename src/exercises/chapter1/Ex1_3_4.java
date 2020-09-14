@@ -1,8 +1,8 @@
-package exercises.section3;
+package exercises.chapter1;
 
 import java.util.Stack;
 
-public class Ex4 {
+public class Ex1_3_4 {
     /**
      * Write a stack client Parentheses.java that reads in sequence of left and
      * right parentheses, braces, and brackets from standard input and uses a stack to

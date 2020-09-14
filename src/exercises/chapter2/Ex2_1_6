@@ -1,0 +1,9 @@
+Q(2.1.6)：Which method runs faster for an array with all keys identical, selection sort or insertion sort?
+
+A：
+Insertion Sort
+
+Reason:
+Insertion Sort runs in linear time.
+Selection sort running time: (N-1)+（N-2)+ ... + 2 + 1 ~ (N^2/2) times, which is quadratic.
+

@@ -1,9 +1,9 @@
 package stack;
 
+import java.util.Stack;
+
 public class LinkedStackOfStrings {
-
     public Node first = null;
-
     private class Node{
         String item;
         Node next;

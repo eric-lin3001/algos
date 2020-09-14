@@ -10,6 +10,12 @@ public class TwoStacksQueue {
     private int N;
 
 
+    /** Initialize your data structure here. */
+    public TwoStacksQueue() {
+        fstStack = new Stack<>();
+        secStack = new Stack<>();
+    }
+
     public void enqueue(String strToAdd){
         fstStack.push(strToAdd);
         N++;
@@ -26,6 +32,15 @@ public class TwoStacksQueue {
         return rst;
     }
 
+    public String peek(){
+        if(secStack.isEmpty()){
+            while (!fstStack.isEmpty()){
+                secStack.push(fstStack.pop());
+            }
+        }
+        return secStack.peek();
+    }
+
     public int sizeOfQueue(){
         return N;
     }
@@ -33,6 +48,7 @@ public class TwoStacksQueue {
 
     public static void main(String[] args) {
         TwoStacksQueue s = new TwoStacksQueue();
+        System.out.println(s.peek());
         s.enqueue("2");
         s.enqueue("3");
         System.out.println(s.dequeue());

@@ -18,6 +18,7 @@ public class LinkedStackOfItems<Item> {
         first.next = nodeOld;
     }
 
+
     public Item pop(){
         Item toReturn = first.item;
         first = first.next;
@@ -36,19 +37,18 @@ public class LinkedStackOfItems<Item> {
 
 
     public void main(String[] args) {
-        LinkedStackOfItems<Item> s = new LinkedStackOfItems<Item>();
-        s.push((Item) "a");
-        s.push((Item) "b");
-        s.push((Item) "c");
-
-
-        Node firstOld = s.first;
-
-        Node x = s.first;
-        x.next = null;
-
-        Node firstNew = s.first;
-        System.out.println(1);
+//        LinkedStackOfItems<String> s = new LinkedStackOfItems<String>();
+//        s.push("a");
+//        s.push("b");
+//        s.push("c");
+//
+//        Node firstOld = s.first;
+//
+//        Node x = s.first;
+//        x.next = null;
+//
+//        Node firstNew = s.first;
+//        System.out.println(1);
 
     }
 }

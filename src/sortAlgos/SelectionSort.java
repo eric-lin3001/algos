@@ -7,18 +7,17 @@ public class SelectionSort {
 //        s = new int[10];
 //    }
 
-    public void sort(int[] param){
-
-        for(int i=0;i<param.length;i++){
-            int minKey = i;
-            for(int j=i+1;j<param.length;j++){
-                if(param[j]<param[minKey]){
-                    minKey = j;
+    public void sort(int[] array){
+        int N = array.length;
+        for(int i=0;i<N;i++){
+            int minIdx = i;
+            for(int j=i+1;j<N;j++){
+                if(array[j]<array[minIdx]){
+                    minIdx = j;
                 }
             }
-            exchange(param,minKey,i);
+            exchange(array,i,minIdx);
         }
-
     }
 
 
