@@ -3,6 +3,7 @@ package sortAlgos;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class InsertionSort {
 
     private static boolean less(Comparable v, Comparable w) { return v.compareTo(w) < 0; }
@@ -15,23 +16,40 @@ public class InsertionSort {
 
         int N = a.length;
 
-        for (int i = 1; i < N; i++)
+        for (int i = 1; i < N; i++) {
 
-        { // Insert a[i] among a[i-1], a[i-2], a[i-3]... ..
 
-            for (int j = i; j > 0 && less(a[j], a[j-1]); j--)
-                exch(a, j, j-1);
-        } }
+            for (int j = i; j > 0; j--) {
+                if (less(a[j], a[j - 1])) {
+                    exch(a, j, j - 1);
+                }
+            }
+        }
+    }
+
+    public void sort2(int[] a){
+        for(int i=1;i<a.length;i++){
+            int key = a[i];
+            int j = i-1;
+            while (j>=0 && a[j]>key){
+                a[j+1] = a[j];
+                j = j -1;
+            }
+            a[j+1] = key;
+        }
+    }
 
 
     public static void main(String[] args) {
-        int[] a = new int[5];
+        int[] a = new int[4];
         a[0] = 3;
         a[1] = 4;
-        a[2] = 50;
+        a[2] = 2;
         a[3] = 7;
 
         InsertionSort i = new InsertionSort();
-        i.sort(a);
+//        i.sort(a);
+        i.sort2(a);
+        System.out.println(1);
     }
 }

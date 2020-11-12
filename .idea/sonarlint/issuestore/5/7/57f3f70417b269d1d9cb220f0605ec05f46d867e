@@ -1,0 +1,14 @@
+
+K
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úýÿÿÿÿ
+R
+java:S1128"=Remove this unused import 'org.apache.hadoop.mapred.JobConf'.(ÕÏ®x
+U
+java:S1128"?Remove this unused import 'org.apache.hadoop.mapreduce.Mapper'.(«’ Ý
+Q
+java:S1128"6Remove this unused import 'java.util.StringTokenizer'.(ÈÄ¬ñþÿÿÿÿ
+\
+java:S1128"ARemove this unused import 'org.apache.hadoop.conf.Configuration'.(õÎÎ¾ùÿÿÿÿ
+[
+java:S1128"@Remove this unused import 'org.apache.hadoop.mapreduce.Reducer'.(‘²Îàüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(„¢·Öùÿÿÿÿ

@@ -1,0 +1,13 @@
+
+E
+java:S3740	"/Provide the parametrized type for this generic.(ñ„Ê–
+E
+java:S3740	"/Provide the parametrized type for this generic.(ñ„Ê–
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø†å¤ûÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å½œ’
+Z	java:S1065"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ8šð‹”Ö.
+]	java:S1253"<This block of commented-out lines of code should be removed.(¤­æìøÿÿÿÿ8šð‹”Ö.
