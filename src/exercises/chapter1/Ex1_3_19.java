@@ -3,10 +3,10 @@ package exercises.chapter1;
 import stack.LinkedStackOfItems;
 
 public class Ex1_3_19 {
-    /**
-     * Give a code fragment that removes the last node in a linked list whose
-     * first node is first
-     **/
+//    /
+//      Give a code fragment that removes the last node in a linked list whose
+//      first node is first
+//     /
 
     public Node first;
     public int size;

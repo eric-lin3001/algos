@@ -5,13 +5,13 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 public class KafkaUtils {
     private static Producer<String, String> producer;
-    /**
-     * 发送kafka消息
-     * @param servers
-     * @param record
-     * @return
-     * @throws Exception
-     */
+    /
+      发送kafka消息
+      @param servers
+      @param record
+      @return
+      @throws Exception
+     /
     public static Boolean sendKafkaMsg(String servers, ProducerRecord<String, String> record) throws Exception {
 //        //先判断servers是否有变化，若有变化，则重新获取生产者链接
 //        if (!servers.equals(bootstrapServers)) {

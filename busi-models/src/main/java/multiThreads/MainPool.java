@@ -10,7 +10,7 @@ public class MainPool {
 
     private ExecutorService executorService;
 
-    @Scheduled(cron = "0 */5 * * * ?")
+    @Scheduled(cron = "0 /5    ?")
     public void taskPool() {
         Thread myThread = new Thread(new MyRunnable());
         executorService.execute(myThread);

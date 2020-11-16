@@ -4,7 +4,7 @@ import leetcode.DelMidNode;
 
 public class Ex1_3_20_Leetcode {
 
-    /**LeetCode 1656*/
+//    /LeetCode 1656/
 
     public class ListNode {
         int val;

@@ -2,6 +2,7 @@ package linkedlist;
 
 import exercises.chapter1.Ex1_3_19;
 import exercises.chapter1.Ex1_3_20_Leetcode;
+import leetcode.leetcode.editor.cn.OddEvenLinkedList;
 import leetcode.leetcode.editor.cn.RemoveLinkedListElements;
 
 import java.util.ArrayList;
@@ -13,54 +14,54 @@ public class MyLinkedList {
 
     ListNode first = null;
 
-    class ListNode{
+    class ListNode {
         ListNode next = null;
         int val;
 
-        public ListNode(int val){
+        public ListNode(int val) {
             this.val = val;
         }
     }
 
 
-    private void addNodeLast(int d){
+    private void addNodeLast(int d) {
         ListNode newNode = new ListNode(d);
-        if(first==null){
+        if (first == null) {
             first = newNode;
-        }else {
+        } else {
             ListNode tmp = first;
             ListNode tmp1 = first;
-            while (tmp.next!=null){
+            while (tmp.next != null) {
                 tmp = tmp.next;
             }
             tmp.next = newNode;
         }
     }
 
-    private void addNodeFirst(int d){
+    private void addNodeFirst(int d) {
         ListNode newNode = new ListNode(d);
-        if(first !=null){
+        if (first != null) {
             ListNode tempNext = first;
             first = newNode;
             newNode.next = tempNext;
             return;
-        }else {
+        } else {
             first = newNode;
         }
     }
 
 
-    private ListNode reverseNode(ListNode head){
-        if(head==null){
+    private ListNode reverseNode(ListNode head) {
+        if (head == null) {
             return null;
         }
         List<Integer> temp = new ArrayList<>();
-        while (head.next != null){
+        while (head.next != null) {
             temp.add(head.val);
             head = head.next;
         }
         ListNode current = head;
-        for(int i=temp.size()-1;i >= 0;i--){
+        for (int i = temp.size() - 1; i >= 0; i--) {
             ListNode m = new ListNode(temp.get(i));
             current.next = m;
             current = current.next;
@@ -82,7 +83,7 @@ public class MyLinkedList {
     }
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
-        if(head==null){
+        if (head == null) {
             return null;
         }
         ListNode current = head;
@@ -90,49 +91,50 @@ public class MyLinkedList {
 
         ListNode refForCount = head;
         int counter = 0;
-        while (refForCount!=null){
+        while (refForCount != null) {
             counter++;
             refForCount = refForCount.next;
         }
 
-        if(counter==n && n==1){
+        if (counter == n && n == 1) {
             return null;
         }
-        if(counter==n && n!=1){
+        if (counter == n && n != 1) {
             return head.next;
         }
-        for(int i=0;i<counter-n;i++){
+        for (int i = 0; i < counter - n; i++) {
             temp = current;
             current = current.next;
         }
-        if(n!=1){
+        if (n != 1) {
             temp.next = temp.next.next;
             return head;
-        }else {
+        } else {
             temp.next = null;
             return head;
         }
 
     }
+
     public ListNode middleNode(ListNode head) {
         int counter = 0;
         ListNode listForCount = head;
-        while (listForCount!=null){
+        while (listForCount != null) {
             counter++;
             listForCount = listForCount.next;
         }
-        if(counter==1){
+        if (counter == 1) {
             return head;
         }
-        if(counter % 2 == 1){
+        if (counter % 2 == 1) {
             ListNode listForAnswer = head;
-            for(int i=0;i<counter/2;i++){
+            for (int i = 0; i < counter / 2; i++) {
                 listForAnswer = listForAnswer.next;
             }
             head = listForAnswer;
-        }else {
+        } else {
             ListNode listForAnswer = head;
-            for(int i=0;i<counter/2;i++){
+            for (int i = 0; i < counter / 2; i++) {
                 listForAnswer = listForAnswer.next;
             }
             head = listForAnswer;
@@ -157,7 +159,7 @@ public class MyLinkedList {
         List<Integer> vals = new ArrayList<>();
         while (current != null && current.next != null) {
             vals.add(current.val);
-            if (!vals.contains(current.val )){
+            if (!vals.contains(current.val)) {
                 vals.add(current.next.val);
                 current = current.next;
             } else {
@@ -172,20 +174,20 @@ public class MyLinkedList {
 
     // TODO
     public ListNode removeElements(ListNode f, int val) {
-        if(f==null){
+        if (f == null) {
             return null;
         }
 
-        while (f.val==val){
+        while (f.val == val) {
             f = f.next;
-            if(f==null){
+            if (f == null) {
                 return null;
             }
         }
 
         ListNode c = f;
         ListNode t = null;
-        while (c!=null) {
+        while (c != null) {
             if (val == c.val) {
                 t.next = c.next;
             }
@@ -195,7 +197,7 @@ public class MyLinkedList {
         return f;
     }
 
-    public ListNode removeFstElement(ListNode f){
+    public ListNode removeFstElement(ListNode f) {
         ListNode temp = f;
         temp = f.next;
         return temp;
@@ -205,16 +207,16 @@ public class MyLinkedList {
 
         ListNode temp = head;
         int len = 0;
-        while (temp != null){
+        while (temp != null) {
             temp = temp.next;
             len += 1;
         }
         ListNode temp1 = head;
-        if(k==len){
+        if (k == len) {
             return head.val;
         }
-        for(int i=0;i<=len-k;i++){
-            if(i==len-k){
+        for (int i = 0; i <= len - k; i++) {
+            if (i == len - k) {
                 return temp1.val;
             }
             temp1 = temp1.next;
@@ -223,40 +225,99 @@ public class MyLinkedList {
     }
 
 
-    public ListNode removeDuplicateNodes(ListNode head){
-        if(head==null){
+    public ListNode removeDuplicateNodes(ListNode head) {
+        if (head == null) {
             return null;
         }
         ListNode c = head;
         ListNode t = head;
         Set<Integer> mySet = new HashSet<>();
         mySet.add(head.val);
-        while (c.next!=null){
-            c=c.next;
-            if(mySet.contains(c.val)){
+        while (c.next != null) {
+            c = c.next;
+            if (mySet.contains(c.val)) {
                 t.next = t.next.next;
-            }else {
+            } else {
                 mySet.add(c.val);
-                t=c;
+                t = c;
             }
         }
         return head;
     }
 
-    public static void main(String[] args) throws Exception{
+    public ListNode oddEvenList(ListNode head) {
+
+
+        if (head == null) {
+            return head;
+        }
+        ListNode evenHead = head.next;
+        ListNode odd = head, even = evenHead;
+        while (even != null && even.next != null) {
+            odd.next = even.next;
+            odd = odd.next;
+            even.next = odd.next;
+            even = even.next;
+        }
+        odd.next = evenHead;
+        return head;
+
+
+    }
+
+
+    public void deleteNode(ListNode node) {
+        ListNode current = first;
+        ListNode temp = first;
+        while (current.next != null) {
+            current = current.next;
+            if (current.val == node.val) {
+                temp.next = temp.next.next;
+                break;
+            }
+            temp = temp.next;
+        }
+    }
+
+
+//    public ListNode reverseList(ListNode head) {
+//        if(head==null){
+//            return null;
+//        }
+//        ListNode tempNode = new ListNode(head.val);
+//        ListNode current = head;
+//        while (current.next!=null){
+//
+//        }
+//    }
+
+    public int[] reversePrint(ListNode head) {
+        ListNode c = head;
+        List<Integer> temp = new ArrayList<>();
+        while (c!=null){
+            temp.add(c.val);
+            c= c.next;
+        }
+        int[] rst = new int[temp.size()];
+        for(int i=temp.size()-1;i>=0;i--){
+            rst[temp.size()-i-1] = temp.get(i);
+        }
+        return rst;
+    }
+
+
+    public static void main(String[] args) throws Exception {
 
 
         // test
         MyLinkedList m = new MyLinkedList();
         m.addNodeLast(1);
-        m.addNodeLast(1);
-        m.addNodeLast(1);
         m.addNodeLast(3);
         m.addNodeLast(2);
-        m.addNodeLast(1);
 
 
-        m.removeDuplicateNodes(m.first);
+
+        m.reversePrint(m.first);
 
 
         // 1. 打印链表m的first节点值（val）（初始值为1）
@@ -297,7 +358,6 @@ public class MyLinkedList {
 //        current.val = -99;
 //        // 输出应为-99
 //        System.out.println(m.first.next.val);
-
 
 
     }

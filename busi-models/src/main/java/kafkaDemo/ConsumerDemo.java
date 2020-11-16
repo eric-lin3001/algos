@@ -6,11 +6,11 @@ import kafka.consumer.ConsumerIterator;
 import kafka.consumer.KafkaStream;
 import kafka.javaapi.consumer.ConsumerConnector;
 import kafka.utils.VerifiableProperties;
-import org.apache.kafka.clients.consumer.*;
+import org.apache.kafka.clients.consumer.;
 import java.sql.SQLException;
-import java.util.*;
+import java.util.;
 
-import kafka.serializer.*;
+import kafka.serializer.;
 
 import org.apache.log4j.BasicConfigurator;
 import org.springframework.context.ConfigurableApplicationContext;

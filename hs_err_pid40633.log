@@ -93,8 +93,8 @@ Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
 j  queue.LinkedQueueOfStrings.enqueue(Ljava/lang/String;)V+37
 j  queue.LinkedQueueOfStrings.main([Ljava/lang/String;)V+17
 v  ~StubRoutines::call_stub
-V  [libjvm.dylib+0x2f0d1e]  JavaCalls::call_helper(JavaValue*, methodHandle*, JavaCallArguments*, Thread*)+0x6ae
-V  [libjvm.dylib+0x327cc5]  jni_invoke_static(JNIEnv_*, JavaValue*, _jobject*, JNICallType, _jmethodID*, JNI_ArgumentPusher*, Thread*)+0x1bf
+V  [libjvm.dylib+0x2f0d1e]  JavaCalls::call_helper(JavaValue, methodHandle, JavaCallArguments, Thread)+0x6ae
+V  [libjvm.dylib+0x327cc5]  jni_invoke_static(JNIEnv_, JavaValue, _jobject, JNICallType, _jmethodID, JNI_ArgumentPusher, Thread)+0x1bf
 V  [libjvm.dylib+0x320a51]  jni_CallStaticVoidMethod+0x15d
 C  [java+0x38c6]  JavaMain+0x9c4
 C  [libsystem_pthread.dylib+0x5e65]  _pthread_start+0x94
@@ -139,7 +139,7 @@ Heap:
 
 Card table byte_map: [0x0000000109379000,0x000000010977a000] byte_map_base: 0x0000000105979000
 
-Marking Bits: (ParMarkBitMap*) 0x00000001088fbe40
+Marking Bits: (ParMarkBitMap) 0x00000001088fbe40
  Begin Bits: [0x0000000109a25000, 0x000000010ba25000)
  End Bits:   [0x000000010ba25000, 0x000000010da25000)
 

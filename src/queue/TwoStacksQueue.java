@@ -10,7 +10,6 @@ public class TwoStacksQueue {
     private int N;
 
 
-    /** Initialize your data structure here. */
     public TwoStacksQueue() {
         fstStack = new Stack<>();
         secStack = new Stack<>();

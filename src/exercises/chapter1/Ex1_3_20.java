@@ -2,9 +2,9 @@ package exercises.chapter1;
 
 public class Ex1_3_20 {
 
-    /** Write a method delete() that takes an int argument k and deletes the kth element in a linked list,
-     *  if it exists.
-     */
+//    / Write a method delete() that takes an int argument k and deletes the kth element in a linked list,
+//       if it exists.
+//     /
 
 
     public Node first;

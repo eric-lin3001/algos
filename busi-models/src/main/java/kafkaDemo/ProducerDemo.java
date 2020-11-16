@@ -1,6 +1,6 @@
 package kafkaDemo;
 
-import org.apache.kafka.clients.producer.*;
+import org.apache.kafka.clients.producer.;
 import com.alibaba.fastjson.JSONObject;
 import java.util.Properties;
 import java.util.concurrent.Future;
