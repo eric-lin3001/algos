@@ -107,6 +107,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/DesignAStackWithIncrementOperation.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/DesignAStackWithIncrementOperation.java" />
+              <option name="questionId" value="1497" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/DesignParkingSystem.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/DesignParkingSystem.java" />
+              <option name="questionId" value="1708" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/DistributeCandies.java">
           <value>
             <LeetcodeEditor>
@@ -323,6 +339,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/JewelsAndStones.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/JewelsAndStones.java" />
+              <option name="questionId" value="782" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/KClosestPointsToOrigin.java">
           <value>
             <LeetcodeEditor>
@@ -440,6 +464,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/Maximum69Number.java" />
               <option name="questionId" value="1448" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/MaximumProductOfTwoElementsInAnArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/MaximumProductOfTwoElementsInAnArray.java" />
+              <option name="questionId" value="1574" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -763,6 +795,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/RunningSumOf1dArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/RunningSumOf1dArray.java" />
+              <option name="questionId" value="1603" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/SearchInsertPosition.java">
           <value>
             <LeetcodeEditor>
@@ -976,6 +1016,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/WordSearch.java" />
               <option name="questionId" value="79" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/WordsFrequencyLcci.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/leetcode/leetcode/editor/cn/WordsFrequencyLcci.java" />
+              <option name="questionId" value="100259" />
             </LeetcodeEditor>
           </value>
         </entry>

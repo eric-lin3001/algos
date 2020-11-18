@@ -1,3 +1,9 @@
 
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ô€®Êúÿÿÿÿ
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÎØç‡ûÿÿÿÿ8…˜ûıÑ.
+‰
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8’ÛäÑÛ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸éÓäùÿÿÿÿ8’ÛäÑÛ.
+]	java:S125
+"<This block of commented-out lines of code should be removed.(ìéñûÿÿÿÿ8’ÛäÑÛ.
+]	java:S125"<This block of commented-out lines of code should be removed.(‘úµŠûÿÿÿÿ8’ÛäÑÛ.
+]	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8’ÛäÑÛ.

@@ -1,7 +1,9 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø†å¤ûÿÿÿÿ
-v
-java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¶Ú› 8„½òàÑ.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ8£²‰åÑ.
 ;
 java:S1659"Declare "j" on a separate line.(ò°š'8„½òàÑ.
+v
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¶Ú› 8„½òàÑ.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ø†å¤ûÿÿÿÿ
+8
+java:S3626("Remove this redundant jump.(ûÁİ…8”ÛäÑÛ.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(ÒìŠêûÿÿÿÿ8”ÛäÑÛ.

@@ -1,12 +1,13 @@
 
-[	java:S125"<This block of commented-out lines of code should be removed.(™ô£íşÿÿÿÿ8›äÙÔÑ.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ì€²8ÛÔÑ.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÖ³úùÿÿÿÿ8©ÄøÔÑ.
-Y
-java:S4973"9Use the "equals" method if value comparison was intended.(«ç¤Âÿÿÿÿÿ8©ÄøÔÑ.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ò¼ñ8ÛÔÑ.
-X	java:S106"9Replace this use of System.out or System.err by a logger.(«ç¤Âÿÿÿÿÿ8©ÄøÔÑ.
-;
-java:S2129" Remove this "String" constructor(ûøË¢8èõÕÕÑ.
-:
-java:S2129" Remove this "String" constructor(œª8èõÕÕÑ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŸÖ³úùÿÿÿÿ8©ÄøÔÑ.
+[
+java:S4973"9Use the "equals" method if value comparison was intended.(«ç¤Âÿÿÿÿÿ8©ÄøÔÑ.
+<
+java:S2129" Remove this "String" constructor(œª8èõÕÕÑ.
+]	java:S125"<This block of commented-out lines of code should be removed.(™ô£íşÿÿÿÿ8›äÙÔÑ.
+=
+java:S2129
+" Remove this "String" constructor(ûøË¢8èõÕÕÑ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ò¼ñ8ÛÔÑ.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(«ç¤Âÿÿÿÿÿ8©ÄøÔÑ.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢Ì€²8ÛÔÑ.
