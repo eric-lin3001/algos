@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="moonbox-jdbc_2.11-0.3.0-beta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../airflow/moonbox-jdbc_2.11-0.3.0-beta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

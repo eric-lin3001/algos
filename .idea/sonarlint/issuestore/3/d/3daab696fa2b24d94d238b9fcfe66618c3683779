@@ -1,0 +1,7 @@
+
+R
+java:S1854*"<Remove this useless assignment to local variable "solution".(™á²Ê
+>
+java:S11160"Remove this empty statement.(°ù‰ªýÿÿÿÿ8†Ÿ¾ÜÙ.
+C
+java:S1481*"-Remove this unused "solution" local variable.(™á²Ê

@@ -1,0 +1,7 @@
+
+L
+java:S10663"/Merge this if statement with the enclosing one.(ÎÒÜš8˜½Ö¸Ø.
+v
+java:S3012D"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Ğ›Ûú8‹¹Ø.
+v
+java:S3012/"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Ğ›Ûú8Îá¸Ø.

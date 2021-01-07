@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="busi-models" />
+        <module name="data-structures-algorithms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="busi-models" target="1.5" />
+      <module name="busi-models" target="8" />
+      <module name="data-structures-algorithms" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

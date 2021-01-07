@@ -1,0 +1,15 @@
+
+N
+java:S1128"8Remove this unused import 'org.apache.hadoop.util.Tool'.(âÆ§Ø
+o
+java:S1128"TRemove this unused import 'org.apache.hadoop.mapreduce.lib.output.FileOutputFormat'.(êæèŸþÿÿÿÿ
+Y
+java:S1128">Remove this unused import 'org.apache.hadoop.conf.Configured'.(“¶šüüÿÿÿÿ
+W
+java:S1128"<Remove this unused import 'org.apache.hadoop.mapreduce.Job'.(þÕ¬úÿÿÿÿ
+L
+java:S1128"6Remove this unused import 'org.apache.hadoop.fs.Path'.(šàö†
+m
+java:S1128"RRemove this unused import 'org.apache.hadoop.mapreduce.lib.input.FileInputFormat'.(Êî‘¥ûÿÿÿÿ
+U
+java:S1161":Add the "@Override" annotation above this method signature(Ð±­÷ùÿÿÿÿ

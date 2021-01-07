@@ -1,0 +1,8 @@
+
+J
+java:S14810"(Remove this unused "rst" local variable.(Î—ášûÿÿÿÿ8Â©¨¯Û.
+Y
+java:S18540"7Remove this useless assignment to local variable "rst".(Î—ášûÿÿÿÿ8Â©¨¯Û.
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ8Â©¨¯Û.
+X
+java:S1751?"6Remove this "return" statement or make it conditional.(ë¼Ûêùÿÿÿÿ8½¯¤¯Û.

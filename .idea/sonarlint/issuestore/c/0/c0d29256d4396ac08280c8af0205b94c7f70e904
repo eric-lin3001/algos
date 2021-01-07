@@ -1,0 +1,19 @@
+
+q	java:S116"WRename this field "LEFT_BRACKET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¼¯Âúÿÿÿÿ
+o	java:S116"URename this field "LEFT_PAREN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ðÿ“ûÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(ˆ­Çðþÿÿÿÿ
+l	java:S116"XRename this field "RIGHT_BRACKET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ä‹[
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(Ó¯ø¸
+]	java:S125
+"<This block of commented-out lines of code should be removed.(ï¬®ûøÿÿÿÿ8¬ÜúÛ.
+k	java:S116"VRename this field "RIGHT_BRACE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Šæ«
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ú¨¢ÿÿÿÿÿ
+p	java:S116"VRename this field "RIGHT_PAREN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ìÂâúÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èÑÁòþÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(èÑÁòþÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(èÑÁòþÿÿÿÿ
+j	java:S116"URename this field "LEFT_BRACE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïå½²

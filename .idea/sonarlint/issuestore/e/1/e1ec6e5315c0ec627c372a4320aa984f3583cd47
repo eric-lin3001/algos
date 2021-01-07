@@ -1,0 +1,8 @@
+
+t
+java:S3776D"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ôå¿Èùÿÿÿÿ8»“ƒñØ.
+L
+java:S11289"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8Û¡ÎğØ.
+J
+java:S11288".Remove this unused import 'java.util.HashSet'.(Ê‚êX8Û¡ÎğØ.
+U	java:S106?"9Replace this use of System.out or System.err by a logger.(éƒĞî8°ÎÔğØ.

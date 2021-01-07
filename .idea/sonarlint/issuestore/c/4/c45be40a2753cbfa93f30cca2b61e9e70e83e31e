@@ -1,0 +1,15 @@
+
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(îƒ…ñ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(îƒ…ñ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(»œ½¬ýÿÿÿÿ
+K
+java:S1128"5Remove this unused import 'stack.LinkedStackOfItems'.(²ÿàï
+o
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó¡ºÇ
+f
+java:S1149	"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ó¡ºÇ
+f	java:S116
+"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼ÿ»øÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(Î¬Áç

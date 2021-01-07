@@ -1,0 +1,21 @@
+
+f
+java:S1149U"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÏĞÇü
+f
+java:S1149U"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÏĞÇü
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(ºüÏÊ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(Ã’ØÈûÿÿÿÿ
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(ºüÏÊ
+f
+java:S1149V"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¹÷Ã€
+f
+java:S1149V"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¹÷Ã€
+œ
+java:S1186Y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ßÙ§ôùÿÿÿÿ
+A
+java:S1172G"+Remove this unused method parameter "args".(Î½ºğ
+N	java:S106K"9Replace this use of System.out or System.err by a logger.(ä¸øä
+]
+java:S1126„"AReplace this if-then-else statement by a single return statement.(÷Ã‹şÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(Ã’ØÈûÿÿÿÿ
+V	java:S125*"<This block of commented-out lines of code should be removed.(Œ»©Ëıÿÿÿÿ

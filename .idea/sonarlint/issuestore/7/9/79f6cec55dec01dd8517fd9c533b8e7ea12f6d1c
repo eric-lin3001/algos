@@ -1,0 +1,45 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÌóŒïýÿÿÿÿ
+H
+java:S1128
+"2Remove this unused import 'java.sql.SQLException'.(ÛïÆŸ
+l
+java:S1128"WRemove this unused import 'org.springframework.context.ConfigurableApplicationContext'.(ÉšêC
+e
+java:S3008"PRename this field "TOPIC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Þ·Š
+R
+java:S1854c"<Remove this useless assignment to local variable "filePath".(¤õ±À
+Q
+java:S1874W"6Remove this use of "ConsumerConfig"; it is deprecated.(øà·üüÿÿÿÿ
+Q
+java:S1874W"6Remove this use of "ConsumerConfig"; it is deprecated.(øà·üüÿÿÿÿ
+W
+java:S1117X"<Rename "consumer" which hides the field declared at line 20.(ãàŸóýÿÿÿÿ
+T
+java:S1874X"9Remove this use of "ConsumerConnector"; it is deprecated.(ãàŸóýÿÿÿÿ
+<
+java:S2129["!Remove this "Integer" constructor(·û©œþÿÿÿÿ
+J
+java:S1874["/Remove this use of "Integer"; it is deprecated.(·û©œþÿÿÿÿ
+N
+java:S1874^"3Remove this use of "KafkaStream"; it is deprecated.(œÌèáùÿÿÿÿ
+I
+java:S1874_"3Remove this use of "KafkaStream"; it is deprecated.(âå”ø
+S
+java:S1874`"8Remove this use of "ConsumerIterator"; it is deprecated.(÷èž›ùÿÿÿÿ
+W
+java:S1075c"ARefactor your code to get this URI from a customizable parameter.(¤õ±À
+N	java:S106h"9Replace this use of System.out or System.err by a logger.(¸ÕÎ
+C
+java:S1481c"-Remove this unused "filePath" local variable.(¤õ±À
+>
+java:S1068")Remove this unused "TOPIC" private field.(Þ·Š
+V	java:S125)"<This block of commented-out lines of code should be removed.(×øÐšþÿÿÿÿ
+Q	java:S125,"<This block of commented-out lines of code should be removed.(î¯ÔÉ
+V	java:S125<"<This block of commented-out lines of code should be removed.(’¾æ×ÿÿÿÿÿ
+V	java:S125D"<This block of commented-out lines of code should be removed.(Ã°ÎÀûÿÿÿÿ
+V	java:S125Y"<This block of commented-out lines of code should be removed.(³šå„øÿÿÿÿ
+Q	java:S125k"<This block of commented-out lines of code should be removed.(€Å’Æ
+V	java:S125m"<This block of commented-out lines of code should be removed.(´Þ¸…øÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ö„¼
+W	java:S125Š"<This block of commented-out lines of code should be removed.(æ¹¤ìþÿÿÿÿ
