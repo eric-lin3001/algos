@@ -1315,6 +1315,22 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CheckIfAll1sAreAtLeastLengthKPlacesAway.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CheckIfAll1sAreAtLeastLengthKPlacesAway.java" />
+              <option name="questionId" value="1548" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CheckIfWordIsValidAfterSubstitutions.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CheckIfWordIsValidAfterSubstitutions.java" />
+              <option name="questionId" value="1045" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CompareVersionNumbers.java">
           <value>
             <LeetcodeEditor>
@@ -1336,6 +1352,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/DetectCapital.java" />
               <option name="questionId" value="520" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/DiYiGeZhiChuXianYiCiDeZiFuLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/DiYiGeZhiChuXianYiCiDeZiFuLcof.java" />
+              <option name="questionId" value="100316" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1427,11 +1451,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/MaximumUnitsOnATruck.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/MaximumUnitsOnATruck.java" />
+              <option name="questionId" value="1829" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/MinStackLcci.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/MinStackLcci.java" />
               <option name="questionId" value="100169" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/NGK0Fy.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/NGK0Fy.java" />
+              <option name="questionId" value="1000139" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1496,6 +1536,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/ReverseStringIi.java" />
               <option name="questionId" value="541" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/ShuZuZhongChuXianCiShuChaoGuoYiBanDeShuZiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/ShuZuZhongChuXianCiShuChaoGuoYiBanDeShuZiLcof.java" />
+              <option name="questionId" value="100310" />
             </LeetcodeEditor>
           </value>
         </entry>
