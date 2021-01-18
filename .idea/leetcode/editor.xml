@@ -1299,6 +1299,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/AccountsMerge.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/AccountsMerge.java" />
+              <option name="questionId" value="721" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/AddTwoNumbers.java">
           <value>
             <LeetcodeEditor>
@@ -1320,6 +1328,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CheckIfAll1sAreAtLeastLengthKPlacesAway.java" />
               <option name="questionId" value="1548" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CheckIfItIsAStraightLine.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CheckIfItIsAStraightLine.java" />
+              <option name="questionId" value="1349" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1363,6 +1379,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/DetermineIfStringHalvesAreAlike.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/DetermineIfStringHalvesAreAlike.java" />
+              <option name="questionId" value="1823" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/DiYiGeZhiChuXianYiCiDeZiFuLcof.java">
           <value>
             <LeetcodeEditor>
@@ -1400,6 +1424,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/FindTheDifference.java" />
               <option name="questionId" value="389" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/GuessNumbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/GuessNumbers.java" />
+              <option name="questionId" value="100107" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1496,6 +1528,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/NumberOfRecentCalls.java" />
               <option name="questionId" value="969" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/NumberOfRectanglesThatCanFormTheLargestSquare.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/NumberOfRectanglesThatCanFormTheLargestSquare.java" />
+              <option name="questionId" value="1843" />
             </LeetcodeEditor>
           </value>
         </entry>
