@@ -41,38 +41,59 @@ package leetcode.leetcode.editor.cn;
 public class FindPivotIndex {
     public static void main(String[] args) {
         Solution solution = new FindPivotIndex().new Solution();
-        int[] nums = new int[]{-1,-1,1,1,0,0};
+        int[] nums = new int[]{-1, -1, 1, 1, 0, 0};
         solution.pivotIndex(nums);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+
         public int pivotIndex(int[] nums) {
-            if(nums.length==0){
-                return -1;
-            }
-            int testZeroIndex = 0;
-            for (int i = 1; i < nums.length ; i++) {
-                testZeroIndex += nums[i];
-            }
-            if (testZeroIndex == 0) {
+            if (nums.length == 1) {
                 return 0;
             }
-            for (int i = 1; i < nums.length; i++) {
-                int leftSum = 0;
-                int rightSum = 0;
-                for (int j = 0; j < i; j++) {
-                    leftSum += nums[j];
+            int sum = 0;
+            for (int n : nums) {
+                sum += n;
+            }
+            int leftSum = 0;
+            for (int i = 0; i < nums.length; i++) {
+                if (i != 0) {
+                    leftSum += nums[i - 1];
                 }
-                for (int k = i + 1; k < nums.length; k++) {
-                    rightSum += nums[k];
-                }
-                if (leftSum == rightSum) {
+                if (leftSum == sum - leftSum - nums[i]) {
                     return i;
                 }
             }
             return -1;
         }
+
+//        public int pivotIndex(int[] nums) {
+//            if(nums.length==0){
+//                return -1;
+//            }
+//            int testZeroIndex = 0;
+//            for (int i = 1; i < nums.length ; i++) {
+//                testZeroIndex += nums[i];
+//            }
+//            if (testZeroIndex == 0) {
+//                return 0;
+//            }
+//            for (int i = 1; i < nums.length; i++) {
+//                int leftSum = 0;
+//                int rightSum = 0;
+//                for (int j = 0; j < i; j++) {
+//                    leftSum += nums[j];
+//                }
+//                for (int k = i + 1; k < nums.length; k++) {
+//                    rightSum += nums[k];
+//                }
+//                if (leftSum == rightSum) {
+//                    return i;
+//                }
+//            }
+//            return -1;
+//        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
