@@ -25,7 +25,7 @@ public class CollectionMethods {
 
         List<Integer> list = Arrays.asList(new Integer[]{2, 3,5,7});
         int factor = 2;
-        list.forEach(x -> System.out.println(x+2));
+//        list.forEach(x -> System.out.println(x+2));
 
     }
 }

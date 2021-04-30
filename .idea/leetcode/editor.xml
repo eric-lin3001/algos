@@ -1315,6 +1315,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/AsteroidCollision.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/AsteroidCollision.java" />
+              <option name="questionId" value="735" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/BullsAndCows.java">
           <value>
             <LeetcodeEditor>
@@ -1392,6 +1400,22 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CountTheNumberOfConsistentStrings.java" />
               <option name="questionId" value="1786" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CustomSortString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/CustomSortString.java" />
+              <option name="questionId" value="807" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/DecodeString.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/DecodeString.java" />
+              <option name="questionId" value="394" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1619,6 +1643,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/NumberOfMatchingSubsequences.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/NumberOfMatchingSubsequences.java" />
+              <option name="questionId" value="808" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/NumberOfRecentCalls.java">
           <value>
             <LeetcodeEditor>
@@ -1731,6 +1763,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/SortArrayByIncreasingFrequency.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/SortArrayByIncreasingFrequency.java" />
+              <option name="questionId" value="1741" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/SortColors.java">
           <value>
             <LeetcodeEditor>
@@ -1832,6 +1872,38 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/src/main/java/leetcode/leetcode/editor/cn/ZuoXuanZhuanZiFuChuanLcof.java" />
               <option name="questionId" value="100330" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../personal/gitHub/data-structures-algorithms/src/main/java/leetcode/leetcode/editor/cn/ImplementQueueUsingStacks.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../../personal/gitHub/data-structures-algorithms/src/main/java/leetcode/leetcode/editor/cn/ImplementQueueUsingStacks.java" />
+              <option name="questionId" value="232" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../personal/gitHub/data-structures-algorithms/src/main/java/leetcode/leetcode/editor/cn/RemoveElement.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../../personal/gitHub/data-structures-algorithms/src/main/java/leetcode/leetcode/editor/cn/RemoveElement.java" />
+              <option name="questionId" value="27" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../personal/gitHub/data-structures-algorithms/src/main/java/leetcode/leetcode/editor/cn/ReverseInteger.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../../personal/gitHub/data-structures-algorithms/src/main/java/leetcode/leetcode/editor/cn/ReverseInteger.java" />
+              <option name="questionId" value="7" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../personal/gitHub/data-structures-algorithms/src/main/java/leetcode/leetcode/editor/cn/TwoSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/../../../personal/gitHub/data-structures-algorithms/src/main/java/leetcode/leetcode/editor/cn/TwoSum.java" />
+              <option name="questionId" value="1" />
             </LeetcodeEditor>
           </value>
         </entry>
