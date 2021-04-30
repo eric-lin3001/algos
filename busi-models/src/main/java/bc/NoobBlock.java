@@ -9,7 +9,7 @@ public class NoobBlock {
     public static void main(String[] args) {
         Block genesisBlock = new Block("Hi im the first block","0");
         Block secondBlock = new Block("Yo im the second block",genesisBlock.hash);
-        Block thirdBlock = new Block("Hey im the third block",secondBlock.hash);
+        Block thirdBlock = new Block("Hee im the third block",secondBlock.hash);
         blockchain.add(genesisBlock);
         blockchain.add(secondBlock);
         blockchain.add(thirdBlock);
